@@ -22,6 +22,26 @@ public class Main {
         System.out.println(pizzaPersonalizada2.toString());
 
 
+
+        //Sintaxis no reducida
+        BuilderPizzas miNuevoBuilder = new BuilderPizzas();
+        Pizzas nuevaPizzaDefault = new Pizzas();
+        nuevaPizzaDefault = miBuilder.build();
+        System.out.println(nuevaPizzaDefault.toString());
+
+
+        //Sintaxis reducida pero poco legible
+        Pizzas nuevaPizzaPersonalizada = new BuilderPizzas().setTipoMasa(Pizzas.INTEGRAL).setChampinhones(true).setSinGluten(true).build();
+        System.out.println(nuevaPizzaPersonalizada.toString());
+
+        //Sintaxis reducida legible
+        Pizzas nuevaPizzaPersonalizada2 = new BuilderPizzas()
+                .setTipoMasa(Pizzas.PEQUEÑA)
+                .setRelleno(true)
+                .setJamon(true)
+                .build();
+        System.out.println(nuevaPizzaPersonalizada2.toString());
+
     }
 }
 
