@@ -1,5 +1,4 @@
-# Patrón Builder 
-
+# Patrón Builder
 ---
 
 ## REFLEXIONA:
