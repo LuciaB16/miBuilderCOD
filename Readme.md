@@ -1,5 +1,5 @@
 # Patrón Builder   
----
+--- 
 
 ## REFLEXIONA:
 1. ¿Cual es la función de este patrón?
