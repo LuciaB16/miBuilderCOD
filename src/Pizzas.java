@@ -51,7 +51,6 @@ public class Pizzas {
     private boolean jamon;
 
 
-
     /**
      * Declaro la constante literal que indica que el tipo de masa es fina
      */
@@ -96,7 +95,6 @@ public class Pizzas {
      * Declaro la constante literal que indica que la salsa es salsa sin gluten
      */
     public static final int SALSASINGLUTEN = 3;
-
 
 
     /**
