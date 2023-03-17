@@ -2,6 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+
         //Sintaxis no reducida
         BuilderPizzas miBuilder = new BuilderPizzas();
         Pizzas pizzaDefault = new Pizzas();
